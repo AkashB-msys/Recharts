@@ -1,38 +1,62 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(53, 52, 52);
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.taskname {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.tableContent{
+  height: 300px;
+  overflow-y: auto;
+}
+table {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  border-spacing: 0;
+}
+th {
+  background-color: rgba(49, 47, 47, 0.781);
   color: white;
+  padding: 5px;
+  position: sticky;
+  top:0;
 }
-
-.App-link {
-  color: #61dafb;
+td {
+  padding: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardcontainer {
+  background-color: rgb(212, 210, 210);
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-radius: 5px;
+}
+.dataname {
+  font-size: 20px;
+  color: rgb(138, 135, 135);
+  margin: 0%;
+}
+.datavalue {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.datadate {
+  color: rgb(138, 135, 135);
+  margin: 0%;
 }

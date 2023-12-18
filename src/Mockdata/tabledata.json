@@ -1,0 +1,42 @@
+[
+    {
+        "SprintName":"SprintName 1",
+        "Status":"Done",
+        "StartDate":"11/07/2022",
+        "EndDate":"15/07/2022",
+        "CompletedDate":"15/07/2022"
+    },
+    {
+        "SprintName":"SprintName 2",
+        "Status":"Inprogress",
+        "StartDate":"17/07/2022",
+        "EndDate":"23/07/2022",
+        "CompletedDate":"23/07/2022"
+    },
+    {
+        "SprintName":"SprintName 3",
+        "Status":"Done",
+        "StartDate":"28/07/2022",
+        "EndDate":"30/08/2022",
+        "CompletedDate":"23/07/2022"
+    },{
+        "SprintName":"SprintName 4",
+        "Status":"Done",
+        "StartDate":"17/07/2022",
+        "EndDate":"23/07/2022",
+        "CompletedDate":"23/07/2022"
+    },{
+        "SprintName":"SprintName 5",
+        "Status":"Inprogress",
+        "StartDate":"17/07/2022",
+        "EndDate":"23/07/2022",
+        "CompletedDate":"23/07/2022"
+    },{
+        "SprintName":"SprintName 6",
+        "Status":"Done",
+        "StartDate":"17/07/2022",
+        "EndDate":"23/07/2022",
+        "CompletedDate":"23/07/2022"
+    }
+    
+]

@@ -1,0 +1,8 @@
+[
+  { "name": "s1", "value1": 100, "value2": 70 },
+  { "name": "s2", "value1": 150, "value2": 100 },
+  { "name": "s3", "value1": 130, "value2": 60 ,"value3":80},
+  { "name": "s4", "value1": 160, "value2": 60 ,"value3":120},
+  { "name": "s4", "value1": 140, "value2": 70 ,"value3":90},
+  {"name":"Forecost", "value4":100}
+]
